@@ -1,36 +1,20 @@
-<footer id="footer" class="footer hidden-print">
-  <div class="container text-center">
-    <div id="bsap_1298241" class="bsarocks bsap_b1146e3f9fa32a794fc6d2c7be47ece8">
-      <a href="http://www.wpbeginner.com/?utm_source=fontawesome_footer&utm_medium=banner&utm_campaign=fontawesome"
-          title="Beginner's Guide to WordPress" target="_blank" rel="nofollow"
-          onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'wpbeginner.com']);">
-        <img src="{{ page.relative_path }}assets/img/logo-wpbeginner.png" width="220" height="65" alt="">
-      </a>
-      <a href="http://themeisle.com/?utm_source=fontawesome_footer&utm_medium=banner&utm_campaign=fontawesome"
-          title="Premium Wordpress Themes" target="_blank" rel="nofollow"
-          onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'themeisle.com']);">
-        <img src="{{ page.relative_path }}assets/img/logo-themeisle.png" width="220" height="65" alt="">
-      </a>
-    </div>
-    <div>
-      <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome {{ site.fontawesome.version }}
-      <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
-      Created by <a href="https://twitter.com/{{ site.fontawesome.author.twitter }}">Dave Gandy</a>
-    </div>
-    <div>
-      Font Awesome licensed under <a href="{{ site.fontawesome.license.font.url }}">{{ site.fontawesome.license.font.version }}</a>
-      <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
-      Code licensed under <a href="{{ site.fontawesome.license.code.url }}">{{ site.fontawesome.license.code.version }}</a>
-      <span class="hide-xs hide-sm">&middot;</span><br class="hide-md hide-lg">
-      Documentation licensed under <a href="{{ site.fontawesome.license.documentation.url }}">{{ site.fontawesome.license.documentation.version }}</a>
-    </div>
-    <div>
-      Thanks to <a href="http://tracking.maxcdn.com/c/148092/3982/378/"><i class="fa fa-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="https://www.bootstrapcdn.com/fontawesome/">BootstrapCDN for Font Awesome</a>
-    </div>
-    <div class="project">
-      <a href="{{ site.fontawesome.github.url }}">GitHub Project</a> &middot;
-      <a href="{{ site.fontawesome.github.url }}/issues">Issues</a> &middot;
-      <a href="{{ page.relative_path }}3.2.1">Old 3.2.1 Docs</a>
-    </div>
+<footer class="s2-docs-footer" role="contentinfo">
+  <div class="container">
+    {% include social-buttons.html %}
+    <p>
+      Select2 is licensed under <a href="https://github.com/select2/select2/blob/master/LICENSE.md">MIT</a>, documentation under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+    </p>
+    <p>
+      Maintained by <a href="https://github.com/kevin-brown">Kevin Brown</a> and <a href="https://github.com/ivaynberg">Igor Vaynberg</a> with the help of <a href="https://github.com/select2/select2/graphs/contributors">our contributors</a>.
+    </p>
+    <ul class="s2-docs-footer-links">
+      <li>Currently v4.0.3</li>
+      <li><a href="https://github.com/select2/select2">GitHub</a></li>
+      <li><a href="./examples.html">Examples</a></li>
+      <li><a href="./options.html">Options</a></li>
+      <li><a href="http://select2.github.io/select2/">v3.5.2 docs</a></li>
+      <li><a href="https://github.com/select2/select2/issues">Issues</a></li>
+      <li><a href="https://github.com/select2/select2/releases">Releases</a></li>
+    </ul>
   </div>
 </footer>
